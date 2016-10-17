@@ -18,8 +18,10 @@ where the Mbean object is published;
 - Client.jar, which creates an RMI connector and performs remote operations 
 on the MBeans.      
 
-To run the example, follow the steps below :
 
+--------------------------------------------------------
+To run the example, follow the steps below :
+--------------------------------------------------------
 a) Start the server on a specified remote port : 
 
 java -Dcom.sun.management.jmxremote.port=9999 
