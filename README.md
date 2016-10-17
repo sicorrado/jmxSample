@@ -16,14 +16,18 @@ on the MBeans.
 
 To run the example, follow the steps below :
 a) Start the server on a specified remote port : 
+
 java -Dcom.sun.management.jmxremote.port=9999 
 -Dcom.sun.management.jmxremote.authenticate=false 
 -Dcom.sun.management.jmxremote.ssl=false -jar Server.jar
+
 The message "Server running..." will confirm that the server correctly started
 and it will be also available from jconsole.
 
 b) Start the client and indicates the host:port of the remote JVM as first argument :  
+
 java -jar Client.jar host:port
+
 by default, the client will try to connect to the localhost, on 9999 port.
 A menu is displayed to give the choice between the following options : 
 
