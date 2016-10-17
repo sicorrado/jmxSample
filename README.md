@@ -2,8 +2,8 @@ A simple command-line program which monitors values of a Mbean attribute
 published on a remote JVM using the JMX API.
 The Mbean attribute choosen is the Heap Memory Usage, with two different
 approaches : 
-1/ using the interface MemoryMBean and calling the methods of the MBean directly;
-2/ declaring a dedicated MBean object, called "LargeArray", and calling the methods through a MBean proxy.
+- (1) using the interface MemoryMBean and calling the methods of the MBean directly;
+- (2) declaring a dedicated MBean object, called "LargeArray", and calling the methods through a MBean proxy.
 The MBean object LargeArray allows to build an array of double values and fill it several times,
 in order to follow the heap memory usage behaviour.
 This MBean object is also able to send a notification to signal that 
