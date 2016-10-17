@@ -1,0 +1,6 @@
+jmxSample\Client$ClientListener.class
+jmxSample\JmxSampleConstants.class
+jmxSample\LargeArray.class
+jmxSample\LargeArrayMBean.class
+jmxSample\Server.class
+jmxSample\Client.class
