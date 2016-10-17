@@ -19,6 +19,7 @@ where the Mbean object is published;
 on the MBeans.      
 
 To run the example, follow the steps below :
+
 a) Start the server on a specified remote port : 
 
 java -Dcom.sun.management.jmxremote.port=9999 
